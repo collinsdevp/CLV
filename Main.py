@@ -140,7 +140,7 @@ returning_customers_summary['Predicted_CLV'] = ggf.customer_lifetime_value(bgf,
                                                                            discount_rate=0.01 #discount rate
                                                                            )                                                   
 # calculate CLV manual
-#cumentreturning_customers_summary['manual_predict_clv']= returning_customers_summary['predicted_num_purchases'] * returning_customers_summary['predicted_avg_sales']
+#returning_customers_summary['manual_predict_clv']= returning_customers_summary['predicted_num_purchases'] * returning_customers_summary['predicted_avg_sales']
 #calculate CLV profit
 profit_margin=0.05
 returning_customers_summary['profit_CLV'] =returning_customers_summary['Predicted_CLV'] * profit_margin
